@@ -1,6 +1,6 @@
 [package]
 name = "conflink"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 authors = ["Nadir Fejzic <nadirfejzo@gmail.com>"]
 description = "Utility for easy file and directory symlinking"
