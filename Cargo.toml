@@ -8,3 +8,8 @@ repository = "https://github.com/nfejzic/conflink"
 license = "Apache-2.0"
 
 [dependencies]
+clap = { version = "4.5.20", features = ["derive"] }
+ignore = "0.4.23"
+rustix = { version = "0.38.39", features = ["fs", "system"] }
+serde = { version = "1.0.214", features = ["serde_derive"] }
+toml = "0.8.19"
